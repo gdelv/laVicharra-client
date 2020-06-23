@@ -1,0 +1,21 @@
+import React from 'react'
+import { Switch, Route } from "react-router-dom";
+import Home from '../screens/Home';
+import Menu from '../screens/Menu';
+import Specials from '../screens/Specials';
+import Contact from '../screens/Contact';
+
+export default function Routes() {
+    return (
+        <Switch>
+            {/* Home Route */}
+            <Route exact path='/' component={Home}/>
+            {/* Menu Route */}
+            <Route exact path='/menu' component={Menu}/>
+            {/* Specials Route */}
+            <Route exact path='/specials' component={Specials}/>
+            {/* Contact Route */}
+            <Route exact path='/contact' component={Contact}/>
+        </Switch>
+    )
+}
