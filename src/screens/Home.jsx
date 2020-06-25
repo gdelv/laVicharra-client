@@ -13,7 +13,6 @@ export default function Home() {
                     exact 
                     to='/menu'
                     activeClassName='active'>
-                    
                         Menu
                 </NavLink>
                 <NavLink
