@@ -2,14 +2,16 @@ import React from 'react';
 import './App.css';
 import Nav from './Components/Nav';
 import Routes from './routes';
+import { useSelector } from "react-redux";
 
-function App() {
+
+export default function App() {
+  const hoverState = useSelector(state => state.isHovered)
   return (
-    <div>
-      <Nav/>
+    <div className={`main-container ${hoverState}`}>
+      <Nav />
       <Routes/>
     </div>
   );
 }
 
-export default App;

@@ -1,7 +1,43 @@
+body {
+  margin: 0;
+  /* background-color: white; */
+
+}
+.main-container {
+  /* background-image: url("https://images.squarespace-cdn.com/content/v1/590b6ae32e69cfe7df129b95/1495419749785-E8PGU709BTNHJEO1E1T7/ke17ZwdGBToddI8pDm48kNDfRgEO5THg9iOdoMxN_7F7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0prfa1Z6IeUrCPboCAmmHZkUEmK-fEb5aE91c0w5JTBufvsjC7mLkSmHBAp-u7mn4Q/la+Vicharra005.jpg?format=2500w"); */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+
+}
+
+.firstBG {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/590b6ae32e69cfe7df129b95/1495419749785-E8PGU709BTNHJEO1E1T7/ke17ZwdGBToddI8pDm48kNDfRgEO5THg9iOdoMxN_7F7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0prfa1Z6IeUrCPboCAmmHZkUEmK-fEb5aE91c0w5JTBufvsjC7mLkSmHBAp-u7mn4Q/la+Vicharra005.jpg?format=2500w");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.secondBG {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/590b6ae32e69cfe7df129b95/1495417836730-W9WDV1AOZM7GMHB3LI5C/ke17ZwdGBToddI8pDm48kO-5aGUBB-obYYiH-_KOXC57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0lCvyAd1-5UQFnp8aARaJsWRn4F75k2w9Nr2jwGLSrzOGMUsQS1m0tJHnoRQlTgtog/la+Vicharra033.jpg?format=2500w");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+.thirdBG {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/515c7b5ae4b0875140c3d94a/1373491567609-HO7MGJR2KOCJL7Z75K7Z/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/IMG_4081.jpg?format=1000w");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
 nav {
+  padding-top: 1vh;
   width: 100%;
   height: 15vh;
   /* border: 1px solid red; */
+
+
 }
 
 .logo-image {
@@ -15,8 +51,8 @@ nav {
   padding-left: 1em;
   align-items: center;
 }
-.logo:hover {
-  transform: rotate(3deg);
+.logo img:hover {
+  transform: rotate(5deg);
 }
 
 .flex {
@@ -45,7 +81,30 @@ nav {
   transition: all .25s linear;
   color: red;
 }
+.home-links a:hover {
+  transition: all .25s linear;
+  color: white;
+}
 
 .active {
   color: red !important;
+}
+
+.home-links {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  min-height: 60vh !important;
+}
+
+.home-links a {
+  padding: 0 1em;
+
+  text-decoration: none;
+  color: black;
+  font-size: 125px;
+  font-family: 'MuseoModerno', cursive;
+
 }

@@ -5,11 +5,18 @@ import Menu from '../screens/Menu';
 import Specials from '../screens/Specials';
 import Contact from '../screens/Contact';
 
-export default function Routes() {
+export default function Routes(props) {
+    // console.log(props);
     return (
+        
+        
         <Switch>
             {/* Home Route */}
-            <Route exact path='/' component={Home}/>
+            <Route
+                exact 
+                path='/' 
+                render={() => <Home handleHover={props.handleHover}/>}
+            />
             {/* Menu Route */}
             <Route exact path='/menu' component={Menu}/>
             {/* Specials Route */}
