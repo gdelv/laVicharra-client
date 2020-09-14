@@ -14,17 +14,17 @@ export default function Nav() {
             <div className="links">
             <NavLink 
             exact 
-            to='/'
+            to='/gallery'
             activeClassName='active' 
             >
-                Home
+                Gallery
             </NavLink>
             <NavLink 
             exact 
-            to='/menu'
+            to='/reviews'
             activeClassName='active' 
             >
-                Menu
+                Reviews
             </NavLink>
             <NavLink 
             exact 
