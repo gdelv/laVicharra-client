@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { FaFacebookF, FaYelp } from "react-icons/fa";
-const logo = require('../images/logo.jpg')
+const logo = require('../images/w-logo.png')
 
 export default function Nav() {
     return (

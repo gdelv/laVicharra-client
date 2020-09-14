@@ -1,5 +1,6 @@
-export const menu = {
-    appetizers: {
+export const menu = [
+    {
+    menuSection: {
         title: 'Cold Appetizers - Entradas Frias',
         menu: [
             {
@@ -47,9 +48,11 @@ export const menu = {
                 price: '$16',
                 description: 'Shrimp marinated in lime juice and Peruvian peppers'
             }
-        ]
+            ]
+        }
     }, 
-    sideDishes: {
+    {
+    menuSection: {
         title: 'Small Dishes - Piqueos Criollos',
         menu: [
             {
@@ -97,9 +100,11 @@ export const menu = {
                 price: '$2.50',
                 description: 'Beef or chicken empanadas'
             }
-        ]
+            ]
+        }
     },
-    mainDishes: {
+    {
+    menuSection: {
         title: 'Main Course - Platos De Fondo',
         menu: [
             {
@@ -222,9 +227,11 @@ export const menu = {
                 price: '$21',
                 description: 'Chuck steak served with french fries & salad'
             }
-        ]
+            ]
+        }
     },
-    soups: {
+    {
+    menuSection: {
         title: 'Soups - Sopas',
         menu: [
             {
@@ -253,9 +260,11 @@ export const menu = {
                 description: 'Corn-beef soup'
             },
 
-        ]
+            ]
+        }
     },
-    desserts: {
+    {
+    menuSection: {
         title: 'Desserts - Postres',
         menu: [
             {
@@ -293,9 +302,11 @@ export const menu = {
                 price: '$6',
                 description:'A layer of yellow cake in between a gummy sheet of gelatin and a fluffy gelatin parfait'
             }
-        ]
+            ]
+        }
     },
-    drinks: {
+    {
+    menuSection: {
         title: 'Drinks - Bebidas',
         menu: [ 
             {
@@ -333,9 +344,11 @@ export const menu = {
                 price: '$1.50',
                 description: 'Peruvian style apple water'
             }
-        ]
+            ]
+        }
     },
-    extras: {
+    {
+    menuSection: {
         title: 'Extras',
         menu: [
             {
@@ -383,6 +396,7 @@ export const menu = {
                 price: '$5',
                 description: 'Red onion salad'
             }
-        ]
+            ]
+        }
     }
-}
+]

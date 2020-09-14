@@ -10,26 +10,29 @@ export default function Home() {
                 <NavLink
                     onMouseEnter={ () => dispatch(backgroundOne()) }
                     onMouseLeave={ () => dispatch(defaultCase()) }
+                    onClick={ () => dispatch(defaultCase())}
                     exact 
-                    to='/menu'
+                    to='/gallery'
                     activeClassName='active'>
-                        Menu
+                        Gallery
                 </NavLink>
                 <NavLink
                     onMouseEnter={ () => dispatch(backgroundTwo()) }
                     onMouseLeave={ () => dispatch(defaultCase()) }
+                    onClick={ () => dispatch(defaultCase())}
                     exact 
-                    to='/specials'
+                    to='/reviews'
                     activeClassName='active'>
-                        Specials
+                        Reviews
                 </NavLink>
                 <NavLink
                     onMouseEnter={ () => dispatch(backgroundThree()) }
                     onMouseLeave={ () => dispatch(defaultCase()) }
+                    onClick={ () => dispatch(defaultCase())}
                     exact 
                     to='/contact'
                     activeClassName='active'>
-                        Visit
+                        Contact
                 </NavLink>
             </div>
         )
