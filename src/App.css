@@ -38,6 +38,10 @@ nav {
   padding-top: 1vh;
   width: 100%;
   height: 15vh;
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 9999;
   /* border: 1px solid red; */
 
 
@@ -81,7 +85,7 @@ nav {
 }
 
 .links a:hover {
-  transition: all .25s linear;
+  transition: all .1s linear;
   color: #f00;
 }
 .home-links a:hover {
@@ -91,7 +95,8 @@ nav {
 }
 
 .active {
-  color: #979081 !important;
+  transition: all .25s linear;
+  color: #f00;
 }
 
 .home-links {
@@ -141,7 +146,7 @@ nav {
   width: 100%;  
   /* border: 1px solid red; */
   position: sticky;
-  top: 0;
+  top: 15vh;
   z-index: 9999;
   background-color: white;
   display: flex;
@@ -151,7 +156,7 @@ nav {
   flex-wrap: wrap;
 }
 .sticky-filter-bar a {
-  flex: 2 3 auto;
+  flex: 2 1 100px;
   border: 1px solid lightblue;
   border-radius: 10px;
   padding: 0.1em;

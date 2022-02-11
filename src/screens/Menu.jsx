@@ -1,5 +1,6 @@
 import React from 'react'
 import { menu } from "../data";
+import { Link } from 'react-scroll'
 import MenuList from '../Components/MenuList';
 
 export default function Menu() {
@@ -21,7 +22,17 @@ export default function Menu() {
         <>
             <div className='sticky-filter-bar'>
                 {menu.map(e => 
-                    <a href={`#${e.menuSection.title}`}>{e.menuSection.title}</a>
+                    <Link 
+                        activeClass="active" 
+                        to={`${e.menuSection.title}`} 
+                        spy={true} 
+                        smooth={true} 
+                        offset={-190} 
+                        duration={500} 
+                    >
+                    {e.menuSection.title}
+                </Link>
+                    // <a href={`#${e.menuSection.title}`}>{e.menuSection.title}</a>
                 )}
                 {}
             </div>
