@@ -12,19 +12,19 @@ export default function Nav() {
             </a>
             </div>
             <div className="links">
-            <NavLink 
+            {/* <NavLink 
             exact 
             to='/gallery'
             activeClassName='active' 
             >
                 Gallery
-            </NavLink>
+            </NavLink> */}
             <NavLink 
             exact 
-            to='/reviews'
+            to='/menu'
             activeClassName='active' 
             >
-                Reviews
+                Menu
             </NavLink>
             <NavLink 
             exact 

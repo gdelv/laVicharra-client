@@ -18,7 +18,7 @@ export default function Routes(props) {
                 render={() => <Home handleHover={props.handleHover}/>}
             />
             {/* Menu Route */}
-            <Route exact path='/reviews' component={Menu}/>
+            <Route exact path='/menu' component={Menu}/>
             {/* Gallery Route */}
             <Route exact path='/gallery' component={Specials}/>
             {/* Contact Route */}
