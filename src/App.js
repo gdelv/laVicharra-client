@@ -11,7 +11,7 @@ export default function App() {
     <div className={`main-container ${hoverState}`}>
       <Nav />
       <Routes/>
-      <footer style={{height: '50vh'}}> hello</footer>
+      <footer style={{height: '50vh'}}> </footer>
     </div>
   );
 }
